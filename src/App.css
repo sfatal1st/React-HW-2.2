@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+.container {
+  max-width: 1200px;
+}
+
+.cards-view-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30%;
+  margin-bottom: 30px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: rgb(242, 244, 247);
+}
+
+.card-container img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.card-container h3 {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.card-container p {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.card-footer {
+  display: flex;
+  align-items: center;
+}
+
+.card-footer p {
+  text-align: left;
+  font-weight: bold;
+  color: rgb(204, 73, 73);
+}
+
+.card-footer button {
+  margin-left: 80px;
+  color: rgb(204, 73, 73);
+}
+
+.list-view-container {
+  display: flex;
+  flex-direction: column;
+  width: 1200px;
+}
+
+.list-item-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: rgb(242, 244, 247);
+}
+
+.list-item-container img {
+  width: 80px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.list-item-container h3 {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.list-item-container p {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.list-item__price {
+  color: rgb(204, 73, 73);
+}
+
+.list-item-container button {
+  color: rgb(204, 73, 73);
+}
+
+.icon-switch {
+  text-align: right;
+}
+
+.material-icons {
+  font-size: 24px;
+  cursor: pointer;
+}
